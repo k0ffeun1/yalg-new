@@ -37,6 +37,10 @@
   font-weight: 400;
 }
 
+.bold {
+  font-weight: 700;
+}
+
 .green {
   color: #76BC21;
 }
@@ -168,7 +172,7 @@
 
 .task__item-img {
   margin-right: 1.1vw;
-  width: 7vw;
+  width: 20vw;
 }
 
 .CA {
@@ -316,7 +320,7 @@ hr {
   text-align: right;
 }
 
-.desicion__item:nth-child(odd) {
+.desicion__item:nth-child(even) {
   margin-top: 4.5vw;
   text-align: left;
 }
@@ -593,6 +597,7 @@ hr {
   }
   .task__item {
     align-items: center;
+    margin-bottom: 5vw;
   }
   .task__item-img {
     margin-right: 4vw;
@@ -672,7 +677,8 @@ hr {
   .desicion__system-img-mobile {
     display: block;
     position: absolute;
-    width: 11vw;
+    width: 12vw;
+    top: 4vw;
   }
   .desicion__item {
     text-align: left;
@@ -775,9 +781,12 @@ hr {
   .team__box-mobile {
     display: block;
     position: absolute;
-    bottom: -13vw;
-    width: 15vw;
+    bottom: -19vw;
+    width: 17vw;
     transform: translate(-50%);
     left: 50%;
+  }
+  .snow-down {
+    margin-top: 15vw;
   }
 }/*# sourceMappingURL=style.css.map */
